@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Multithreading_VB", "Multithreading_VB\Multithreading_VB.vbproj", "{9BCBD659-70F6-4CCF-9971-77DCCFAD1F72}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TaskAsyncExample", "TaskAsyncExample\TaskAsyncExample.vbproj", "{DB2DB833-B9A3-4C48-9DB9-8F51B0E1F1E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BCBD659-70F6-4CCF-9971-77DCCFAD1F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCBD659-70F6-4CCF-9971-77DCCFAD1F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCBD659-70F6-4CCF-9971-77DCCFAD1F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCBD659-70F6-4CCF-9971-77DCCFAD1F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB2DB833-B9A3-4C48-9DB9-8F51B0E1F1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB2DB833-B9A3-4C48-9DB9-8F51B0E1F1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB2DB833-B9A3-4C48-9DB9-8F51B0E1F1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB2DB833-B9A3-4C48-9DB9-8F51B0E1F1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {645817A8-0E04-4DED-8A75-8AEEF8F5F546}
+	EndGlobalSection
+EndGlobal

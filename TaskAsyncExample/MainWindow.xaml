@@ -1,0 +1,23 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TaskAsyncExample"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/> 
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Button Grid.Row="0" Content="Click me" VerticalAlignment="Top" Click="Button_Click"></Button>
+        <Button Grid.Row="1" Content="Click me (FREEZE)" VerticalAlignment="Top" Click="Button_Click_FREEZEUI"></Button>
+        <ListBox Grid.Row="2" x:Name="lb_Breakfast" ItemsSource="{Binding BreakfastMessages}"/>
+        <ProgressBar Value="{Binding PercentCompleted}" Minimum="0" Maximum="100" Grid.Row="3"/>
+        <ProgressBar x:Name="pg_noBinding" Minimum="0" Maximum="100" Grid.Row="4"/>
+    </Grid>
+</Window>
